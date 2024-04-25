@@ -493,4 +493,3 @@ app.get('/api/songs/getSongTitles', async (req, res) => {
 app.listen(7000, () =>
 	console.log('Server is running on http://localhost:7000')
 );
-
