@@ -490,7 +490,11 @@ app.get('/api/songs/getSongTitles', async (req, res) => {
         res.status(500).json({ error: 'An error occurred while fetching song titles.' });
     }
 });
+//added variable port
+const port = process.env.PORT || 7000;
 
-app.listen(7000, () =>
-	console.log('Server is running on http://localhost:7000')
+app.listen(port, () =>
+    console.log(`Server is running on http://localhost:${port}`)
+);
+
 );
