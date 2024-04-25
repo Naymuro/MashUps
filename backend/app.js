@@ -10,7 +10,7 @@ app.use(cors());
 const spotifyApi = new SpotifyWebApi({
 	clientId: '74f1ad1416024d098678c349a9d82873',
 	clientSecret: '3500485dfc1e433da89b0d0e2de26a60',
-	redirectUri: 'https://dev1832.dhir54lmgp7x.amplifyapp.com/',
+	redirectUri: 'http://localhost:5173/',
 });
 
 // Get an access token
