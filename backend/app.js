@@ -490,6 +490,7 @@ app.get('/api/songs/getSongTitles', async (req, res) => {
         res.status(500).json({ error: 'An error occurred while fetching song titles.' });
     }
 });
+
 app.listen(7000, () =>
 	console.log('Server is running on http://localhost:7000')
 );
